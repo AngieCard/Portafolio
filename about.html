@@ -1,0 +1,265 @@
+---
+layout: default
+title: "Sobre Mí"
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sobre Mí - {{ site.title }}</title>
+  <!-- Hoja de estilos general (ya existente) -->
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <!-- Hoja de estilos específica para la sección sobre mí -->
+  <link rel="stylesheet" href="{{ '/assets/css/about-me.css' | relative_url }}">
+</head>
+<body>
+  <!-- Utiliza el header existente desde tu layout o inclúyelo aquí si es necesario -->
+  <header>
+    <!-- Aquí tu navbar tal como lo tienes configurado -->
+    <!-- Por ejemplo, si lo incluyes mediante include: {% include header.html %} -->
+  </header>
+
+  <main class="container my-5 about-me">
+    <!-- Sección de Presentación (Foto y Breve Descripción) -->
+    <section class="intro d-flex flex-wrap align-items-center">
+      <div class="profile-photo mr-4">
+        <img src="{{ '/assets/images/profile.png' | relative_url }}" alt="Mi Foto">
+      </div>
+      <div class="bio">
+        <h1 class="name">Angie Paola Cardona Ocampo</h1>
+        <p class="description">
+          Ingeniera en Software
+        </p>
+          <ul class="skills-list">
+            <li>Python</li>
+            <li>Django</li>
+            <li>HTML / CSS / JavaScript</li>
+            <li>Bases de Datos</li>
+            <li>Azure</li>
+            <li>GitHub</li>
+            <li>Postman</li>
+            <li>Metodologías ágiles</li>
+            <li>Proactividad</li>
+          </ul>
+      </div>
+    </section>
+    <section class="contact-info mt-5">
+      <p class="contact-info mt-5">
+        Apasionada por la tecnología y su capacidad para transformar ideas en soluciones prácticas, me especializo en el desarrollo de software, con un enfoque en aprender y aplicar nuevas tecnologías para resolver problemas de manera eficiente. Me destaco por mi rápida capacidad de aprendizaje, autonomía en la resolución de desafíos y compromiso con el crecimiento continuo en áreas como programación, implementación de plataformas y desarrollo de aplicaciones innovadoras
+
+      </p>
+    </section>
+
+    <!-- Sección: Datos de Contacto -->
+    <section class="contact-info mt-5">
+      <h2 class="section-title">Datos de Contacto</h2>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:angiie.paloaa@gmail.com">angiie.paloaa@gmail.com</a></li>
+        <li>Teléfono: +57 311 337 03 08</li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/angie-paola-cardona-ocampo-567078b2/" target="_blank">Angie Cardona</a></li>
+      </ul>
+    </section>
+
+
+    <!-- Sección: Estudios -->
+    <section class="education mt-5">
+      <h2 class="section-title">Estudios</h2>
+      <div class="education-item">
+        <h3 class="edu-title">Tecnológico de Antioquia</h3>
+        <span class="edu-date">2019 - 2023</span>
+        <p class="edu-description">
+          Ingenieria en Sotfware
+        </p>
+        <h3 class="edu-title">SENA</h3>
+        <span class="edu-date">2015 - 2018</span>
+        <p class="edu-description">
+          Tecnóloga en Gestión en Redes de Datos
+        </p>
+        <h3 class="edu-title">SENA</h3>
+        <span class="edu-date">2014 - 2015</span>
+        <p class="edu-description">
+          Técnica en Sitemas
+        </p>
+      </div>
+    </section>
+
+
+
+
+    <!-- Sección: Experiencia Laboral -->
+    <section class="experience mt-5">
+      <h2 class="section-title">Experiencia Laboral</h2>
+      <div class="job">
+        <h3 class="job-title">Fundación Universidad de Antioquia</h3>
+        <span class="job-date">Desarrolladora TI - Presente</span>
+
+        <p class="job-description">
+          • Creación y mantenimiento de aplicaciones web utilizando Django, HTML, y CSS, asegurando soluciones funcionales y alineadas a los objetivos del negocio.
+          </p>
+          <p class="job-description">
+          • Integración de APIs y servicios web, gestionando el estado de la aplicación y optimizando el rendimiento.
+          </p>
+          <p class="job-description">
+          • Uso de Postman para pruebas y validación de APIs, garantizando su correcta funcionalidad.
+          </p>
+          <p class="job-description">
+          • Identificación, análisis y documentación de requerimientos funcionales y no funcionales, considerando aspectos clave como rendimiento, seguridad y compatibilidad.
+          </p>
+          <p class="job-description">
+          • Elaboración de casos de uso y comunicación efectiva con usuarios y partes interesadas para garantizar el entendimiento de las necesidades del proyecto.
+          </p>
+          <p class="job-description">
+          • Priorización y gestión de requerimientos para asegurar su alineación con los objetivos del proyecto y las expectativas del cliente.
+          </p>
+          <p class="job-description">
+          • Manejo avanzado de repositorios en GitHub, incluyendo commits, branches, merges y pull requests para garantizar la colaboración efectiva en equipos de desarrollo.
+          </p>
+          <p class="job-description">
+          • Despliegue de aplicaciones mediante GitHub Actions en Azure, asegurando implementaciones automatizadas y eficientes.
+          </p>
+          <p class="job-description">
+          • Creación, configuración y mantenimiento de aplicaciones en Azure, incluyendo el desarrollo de Web Apps.
+          </p>
+          <p class="job-description">
+          • Administración y creación de bases de datos en servidores de Azure.
+          </p>
+          <p class="job-description">
+          • Implementación de OCR de Azure para la extracción de texto de imágenes.
+          </p>
+          <p class="job-description">
+          • Configuración y uso de Azure Storage Blob para el almacenamiento de datos.
+          </p>
+          <p class="job-description">
+          • Apoyo en la planificación de proyectos, contribuyendo a la definición de objetivos y estrategias.
+          </p>
+          <p class="job-description">
+          • Implementación y soporte de plataformas organizacionales, asegurando la continuidad y funcionalidad de los sistemas implementados.
+          </p>
+          <p class="job-description">
+          • Uso de SharePoint y APIs de Microsoft 365 para la integración y gestión de información empresarial.
+          </p>
+          <p class="job-description">
+          • Soporte y mantenimiento de software desarrollado, además de capacitación personalizada para el usuario final.
+          </p>
+          <p class="job-description">
+          • Participación activa en equipos ágiles, contribuyendo al diseño, implementación y mejora continua de soluciones de interfaz de usuario.
+          </p>
+          <p class="job-description">
+          • Mejora constante de aplicaciones mediante adaptaciones y nuevas funcionalidades basadas en las necesidades identificadas por los usuarios.
+          </p>
+          <p class="job-description">
+          • Conocimientos básicos en el uso de Docker para la creación y gestión de contenedores, garantizando entornos de desarrollo consistentes y simplificados.
+          </p>
+          <p class="job-description">
+          • Manejo de Odoo para la gestión de procesos empresariales y funcionalidades específicas de negocio.
+          </p>
+          <p class="job-description">
+          • Conocimientos básicos de QNAP para la administración de almacenamiento en red y sistemas asociados.
+          </p>
+          
+      </div>
+      <div class="job">
+        <h3 class="job-title">Fundación Universidad de Antioquia</h3>
+        <span class="job-date">Gestora Gestión Tecnológica e Innovación - 2024</span>
+        
+        <p class="job-description">
+          • Creación y mantenimiento de aplicaciones web utilizando Django, HTML, y CSS, asegurando soluciones funcionales y alineadas a los objetivos del negocio.
+          </p>
+          <p class="job-description">
+          • Integración de APIs y servicios web, gestionando el estado de la aplicación y optimizando el rendimiento.
+          </p>
+          <p class="job-description">
+          • Uso de Postman para pruebas y validación de APIs, garantizando su correcta funcionalidad.
+          </p>
+          <p class="job-description">
+          • Identificación, análisis y documentación de requerimientos funcionales y no funcionales, considerando aspectos clave como rendimiento, seguridad y compatibilidad.
+          </p>
+          <p class="job-description">
+          • Elaboración de casos de uso y comunicación efectiva con usuarios y partes interesadas para garantizar el entendimiento de las necesidades del proyecto.
+          </p>
+          <p class="job-description">
+          • Priorización y gestión de requerimientos para asegurar su alineación con los objetivos del proyecto y las expectativas del cliente.
+          </p>
+          <p class="job-description">
+          • Manejo avanzado de repositorios en GitHub, incluyendo commits, branches, merges y pull requests para garantizar la colaboración efectiva en equipos de desarrollo.
+          </p>
+          <p class="job-description">
+          • Despliegue de aplicaciones mediante GitHub Actions en Azure, asegurando implementaciones automatizadas y eficientes.
+          </p>
+          <p class="job-description">
+          • Creación, configuración y mantenimiento de aplicaciones en Azure, incluyendo el desarrollo de Web Apps.
+          </p>
+          <p class="job-description">
+          • Administración y creación de bases de datos en servidores de Azure.
+          </p>
+          <p class="job-description">
+          • Implementación de OCR de Azure para la extracción de texto de imágenes.
+          </p>
+          <p class="job-description">
+          • Configuración y uso de Azure Storage Blob para el almacenamiento de datos.
+          </p>
+          <p class="job-description">
+          • Apoyo en la planificación de proyectos, contribuyendo a la definición de objetivos y estrategias.
+          </p>
+          <p class="job-description">
+          • Implementación y soporte de plataformas organizacionales, asegurando la continuidad y funcionalidad de los sistemas implementados.
+          </p>
+          <p class="job-description">
+          • Uso de SharePoint y APIs de Microsoft 365 para la integración y gestión de información empresarial.
+          </p>
+          <p class="job-description">
+          • Soporte y mantenimiento de software desarrollado, además de capacitación personalizada para el usuario final.
+          </p>
+          <p class="job-description">
+          • Participación activa en equipos ágiles, contribuyendo al diseño, implementación y mejora continua de soluciones de interfaz de usuario.
+          </p>
+          <p class="job-description">
+          • Mejora constante de aplicaciones mediante adaptaciones y nuevas funcionalidades basadas en las necesidades identificadas por los usuarios.
+          </p>
+          <p class="job-description">
+          • Conocimientos básicos en el uso de Docker para la creación y gestión de contenedores, garantizando entornos de desarrollo consistentes y simplificados.
+          </p>
+          <p class="job-description">
+          • Manejo de Odoo para la gestión de procesos empresariales y funcionalidades específicas de negocio.
+          </p>
+          <p class="job-description">
+          • Conocimientos básicos de QNAP para la administración de almacenamiento en red y sistemas asociados.
+          </p>
+      </div>
+      <div class="job">
+        <h3 class="job-title">Fundación Universidad de Antioquia</h3>
+        <span class="job-date">Asistente Gestión Tecnológica e Innovación - 2022</span>
+        <p class="job-description">
+          • Planificación y revisión periódica de sistemas, equipos y herramientas tecnológicas para asegurar su rendimiento y alineación con las necesidades del usuario.
+        </p>
+        <p class="job-description">
+          • Brindar soporte y acompañamiento a usuarios, incluyendo capacitación en el uso de plataformas y herramientas ofimáticas.
+        </p>
+        <p class="job-description">
+          • Supervisión y mejora continua en el mantenimiento de equipos y sistemas tecnológicos
+        </p>
+      </div>
+      <div class="job">
+        <h3 class="job-title">Fundación Universidad de Antioquia</h3>
+        <span class="job-date">Auxiliar Gestión Tecnológica e Innovación - 2021</span>
+        <p class="job-description">
+          • Brindar soporte técnico a usuarios, garantizando el correcto funcionamiento de sistemas de información y plataformas implementadas.
+          • Mantenimiento de equipos, sistemas y herramientas tecnológicas, asegurando su óptimo rendimiento.
+          • Asistencia en el uso y capacitación en herramientas ofimáticas, promoviendo la eficiencia en procesos organizacionales.
+        </p>
+        <p class="job-description">
+          • Mantenimiento de equipos, sistemas y herramientas tecnológicas, asegurando su óptimo rendimiento.
+        </p>
+        <p class="job-description">
+          • Asistencia en el uso y capacitación en herramientas ofimáticas, promoviendo la eficiencia en procesos organizacionales.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  
+  <!-- Scripts (por ejemplo, Bootstrap si es necesario) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

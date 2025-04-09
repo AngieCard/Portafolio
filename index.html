@@ -1,0 +1,47 @@
+---
+layout: default
+title: "Proyectos"
+---
+
+  <!-- Sección Hero -->
+  <section class="hero d-flex align-items-center">
+    <div>
+      <h1 class="hero-name">Angie Cardona.</h1>
+      <h2 class="hero-role">Desarrolladora backend junior.</h2>
+      <p class="hero-description">
+        Soy una ingeniera de software especializada en Python y Django, 
+        comprometida con la mejora continua y la entrega de proyectos de alta calidad 
+        que resuelvan problemas reales. Utilizo herramientas avanzadas para optimizar 
+        la eficiencia y potenciar mis capacidades, asegurando soluciones robustas 
+        y escalables.
+      </p>
+      <p class="mt-4" style="font-size: 1.3rem; color:#3AB0FF">
+        Algunos proyectos:
+      </p>
+    </div>
+  </section>
+  
+  <!-- Sección Proyectos (llamados desde _projects) -->
+  {% assign sorted_projects = site.projects | sort: "order" %}
+  <section class="projects pb-5">
+    <div class="row">
+      {% for project in sorted_projects %}
+      <div class="col-12 col-sm-6 col-md-4 mb-4">
+        <div class="card h-100 project-card">
+          <img src="{{ project.image }}" class="card-img-top project-image" alt="{{ project.title }}">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">{{ project.title }}</h5>
+            <p class="card-text">{{ project.description | truncatewords: 20 }}</p>
+            <div class="mb-2">
+              {% for tag in project.tags %}
+              <span class="badge badge-primary">{{ tag }}</span>
+              {% endfor %}
+            </div>
+            <a href="{{ project.url }}" class="btn btn-outline-primary mt-auto">Ver más</a>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  

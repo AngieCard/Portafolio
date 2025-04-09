@@ -1,0 +1,17 @@
+title: "Angie Cardona"
+description: "Desarrolladora Backend Junior enfocada en Python, Django y bases de datos SQL. Enfocada en la mejora continua y la entrega de proyectos de alta calidad que resuelvan problemas reales. Mira mis <span class='highlight'>últimos trabajos</span>."
+url: "https://tuusuario.github.io"  # Cambia esto por tu URL si usas GitHub Pages
+author: "Angie Cardona"
+
+# Definición de la colección de proyectos
+collections:
+  projects:
+    output: true
+    permalink: /proyectos/:title/
+
+# Configuración adicional (opcional)
+baseurl: "" # Si no usas subcarpeta, déjalo vacío
+theme: minima
+
+plugins:
+  - jekyll-feed

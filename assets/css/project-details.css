@@ -1,0 +1,137 @@
+/* project-details.css */
+
+/* Contenedor general (opcional) */
+
+  
+  /* TITULOS y TEXTOS */
+  
+  /* Título principal del proyecto */
+  .project-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    /* Ejemplo de color */
+    color: #ffffff;
+    /* Fondo con color para destacar, ajústalo a tu preferencia */
+    background-color: #2D3E50;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-align: center;
+
+  }
+  
+  /* Descripción general del proyecto */
+  .project-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: #ddd; /* Ajusta según tu preferencia */
+  }
+  
+  /* Subtítulo de secciones (funcionalidades, impacto, etc.) */
+  .section-subtitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  .section-subtitle1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  /* Lista de funcionalidades */
+  .functionality-list li {
+    margin-bottom: 5px;
+    color: #ccc; /* Ajusta el color */
+  }
+  
+  /* BADGES */
+  .tech-badges .badge {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  
+  /* CARRUSEL */
+  
+  /* Título de la galería */
+  .gallery-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: rgba(58, 176, 255, 72%);
+    text-align: center;
+
+  }
+  
+  /* Contenedor del carrusel */
+  .project-carousel .carousel-inner img {
+    max-height: 400px; /* altura máxima */
+    object-fit: contain; /* asegúrate de que la imagen se escale para mostrarse en su totalidad */
+    width: 100%;
+
+  }
+  
+  /* Flechas por fuera: 
+     Ajustamos la posición de los controles con clases personalizadas .outside-control 
+  */
+  .outside-control {
+    width: 5%; /* Ajusta según tu gusto */
+  }
+  .carousel-control-prev.outside-control {
+    left: -3rem; /* Saca la flecha a la izquierda */
+  }
+  .carousel-control-next.outside-control {
+    right: -3rem; /* Saca la flecha a la derecha */
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: brightness(0) invert(1) drop-shadow(1px 1px 2px rgba(0,0,0,0.8));
+}
+  
+  /* CARDS DE IMPACTO */
+  .impact-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; /* espacio entre las cards */
+    margin-top: 2rem;
+    
+  }
+  .impact-card {
+    background-color: #E2FFF6;
+    border-radius: 4px;
+    flex: 1 1 200px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Título de cada card */
+  .impact-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    color: #333; 
+  }
+  
+  /* Texto de cada card */
+  .impact-description {
+    margin-bottom: 0;
+    color: #555;
+  }
+.btn-custom {
+  background-color: rgba(58, 176, 255, 0.72);
+  border: none;
+  color: #fff; /* O el color de texto que prefieras */
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-custom:hover {
+  background-color: rgba(58, 176, 255, 0.85);
+}

@@ -1,0 +1,137 @@
+/* Ejemplo de importación de fuente "Rethink Sans" (si la tuvieras local o en un CDN)
+@font-face {
+  font-family: 'Rethink Sans';
+  src: url('/assets/fonts/RethinkSans.woff2') format('woff2');
+}
+*/
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  /* Fondo degradado sutil (ajusta colores a tu preferencia) */
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  color: #ffffff;
+  font-family: 'Rethink Sans', sans-serif;
+}
+
+/* Ajustes de la navbar (clases personalizadas si deseas) */
+/* 2. Barra de navegación semi-transparente */
+.navbar {
+background-color: rgba(0, 0, 0, 0.3); /* Ajusta el nivel de transparencia a tu gusto */
+border-bottom: none;
+box-shadow: 0 0 10px rgba(0,0,0,0.4); /* Sombra sutil para separarla del fondo */
+}
+
+/* Cambiamos el color de los enlaces para un mejor contraste */
+.navbar-brand,
+.nav-link {
+color: #ffffff !important;
+transition: color 0.3s ease;
+}
+
+/* Hover en enlaces del menú */
+.nav-link:hover {
+color: #3ab0ff !important; /* Azul de acento */
+}
+
+/* Hero */
+.hero {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+.hero .container {
+  /* Espacio vertical */
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.hero-name {
+  font-size: 5rem;
+  font-weight: 600;
+  color: rgba(226, 228, 235, 1); /* #E2E4EB sin opacidad, ajusta si quieres */
+
+}
+.hero-role {
+  font-size:  2.7rem;
+  font-weight: 700;
+  /* #E2E4EB al 59% => rgba(226, 228, 235, 0.59) */
+  color: rgba(226, 228, 235, 0.59);
+
+}
+.hero-description {
+  /* #E2FFF6 al 72% => rgba(226, 255, 246, 0.72) */
+  color: rgba(226, 255, 246, 0.72);
+  max-width: max-content;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+
+/* Para que el contenedor de proyectos tenga márgenes laterales moderados */
+.projects .container {
+padding-left: 1rem;
+padding-right: 1rem;
+}
+
+/* Estilo para el card de proyecto */
+.project-card {
+background-color: rgba(255, 255, 255, 0.05); /* Fondo oscuro semi-transparente */
+border: none;
+border-radius: 6px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+transform: translateY(-2px);
+box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo de la imagen del card: fija una altura para que en pantallas pequeñas no se expanda demasiado */
+.project-image {
+width: 100%;
+height: 180px; /* Ajusta la altura según tu prototipo */
+object-fit: cover;
+border-top-left-radius: 6px;
+border-top-right-radius: 6px;
+}
+
+/* Estilo del título en el card */
+.card-title {
+font-size: 1.25rem;
+font-weight: 600;
+margin-bottom: 0.5rem;
+color: #E2E4EB; /* Color sólido para el título */
+}
+
+/* Estilo del texto de descripción en el card */
+.card-text {
+font-size: 0.9rem;
+color: rgba(226, 255, 246, 0.72); /* Con opacidad, según tu indicación */
+flex-grow: 1;
+}
+
+/* Estilo para los badges (etiquetas) */
+.badge-primary {
+background-color: #3ab0ff;
+color: #000;
+font-size: 0.75rem;
+margin-right: 0.25rem;
+}
+
+/* Estilo del botón "Ver más" */
+.btn-outline-primary {
+font-size: 0.85rem;
+padding: 0.4rem 0.8rem;
+}
+/* Footer */
+.footer {
+  background-color: transparent;
+  color: #ccc;
+}
+
+.ppal{
+  width: 90%;
+
+}  
