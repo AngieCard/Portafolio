@@ -3,6 +3,7 @@ layout: project
 title: "Reporte de Novedades"
 project_title: "Reporte de Novedades"
 order: 2
+
 image: "/assets/images/proyecto-uno.png"  # Coloca tu imagen en la carpeta assets/images
 description: "Este proyecto es un sistema web de registro y gestión de novedades laborales que facilita a los empleados reportar ausencias, ingresos, retiros, cambios de zona y más, mediante formularios inteligentes y dinámicos. Incluye validaciones automáticas y conexión en tiempo real con sistemas externos, ofreciendo una interfaz amigable para una experiencia de usuario moderna y eficiente."
 tags: ["Python","Django","Django REST Framework","Odoo API","Azure Blob Storage","Azure AD","OAuth 2.0","HTML","CSS","JavaScript"]
