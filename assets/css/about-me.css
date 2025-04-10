@@ -117,3 +117,14 @@
     }
   }
   
+/* Para pantallas pequeñas */
+@media (max-width: 576px) {
+  .intro {
+    flex-direction: column; /* La imagen se coloca encima y el texto debajo */
+    text-align: center; /* Puedes centrar el contenido si lo deseas */
+  }
+
+  .profile-photo {
+    margin: 0 0 20px 0; /* Ajustar márgenes según convenga */
+  }
+}
