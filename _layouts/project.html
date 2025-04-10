@@ -8,7 +8,8 @@ title: "Proyectos"
 <head>
   <meta charset="UTF-8">
   <title>{{ page.title }}</title>
-  <link rel="stylesheet" href="/assets/css/project-details.css">
+  <link rel="stylesheet" href="{{ '/assets/css/project-details.css' | relative_url }}">
+
 </head>
 <body>
 
@@ -32,7 +33,7 @@ title: "Proyectos"
       <div class="carousel-inner">
         {% for image in page.gallery %}
         <div class="carousel-item {% if forloop.first %}active{% endif %}">
-          <img src="{{ image }}" class="d-block w-100" alt="Pantallazo">
+          <img src="{{ image | relative_url }}" class="d-block w-100" alt="Pantallazo">
         </div>
         {% endfor %}
       </div>
