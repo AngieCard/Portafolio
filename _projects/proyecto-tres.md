@@ -12,7 +12,11 @@ tags: ["Python","Django", "Django REST Framework", "drf_yasg","PostgreSQL","djan
 gallery:
   - "/assets/images/proyecto_3/proyecto3-3.png"
   - "/assets/images/proyecto_3/proyecto3-2.png"
-  - "/assets/images/proyecto_3/proyecto3-1.png"  
+  - "/assets/images/proyecto_3/proyecto3-1.png"
+  - "/assets/images/proyecto_3/proyecto3-4.png" 
+  - "/assets/images/proyecto_3/proyecto3-5.png" 
+  - "/assets/images/proyecto_3/proyecto3-6.png"
+  - "/assets/images/proyecto_3/proyecto3-7.png"
 functionalities_intro: |
   Este sistema backend, desarrollado con Django y Django REST Framework, está orientado a la gestión integral de procesos de contratación y administración de contratistas. Incorpora autenticación y autorización mediante tokens, manejo avanzado de usuarios a través de un modelo personalizado, gestión de contratos y contratistas, procesamiento masivo de información vía archivos Excel y administración de documentos (incluyendo conversiones a Base64 para almacenamiento controlado). Además, integra servicios externos como Odoo para consultar datos de compañías y dispone de una documentación interactiva de la API utilizando Swagger, algunas funcionalidades son:
 functionalities:

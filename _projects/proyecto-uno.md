@@ -13,6 +13,10 @@ technologies: ["Python", "Django", "REST"]
 gallery:
   - "/assets/images/proyecto_1/proyecto1-1.png"
   - "/assets/images/proyecto_1/proyecto1-2.png"
+  - "/assets/images/proyecto_1/proyecto1-3.png"
+  - "/assets/images/proyecto_1/proyecto1-4.png"
+  - "/assets/images/proyecto_1/proyecto1-5.png"
+  - "/assets/images/proyecto_1/proyecto1-6.png"
 functionalities_intro: |
   El sistema web de gestión de novedades laborales está diseñado para optimizar la administración de reportes laborales, permitiendo a los empleados registrar novedades operativas de la organización. La plataforma ofrece una interfaz intuitiva y dinámica, asegurando una experiencia de usuario fluida y eficiente. Además, integra múltiples validaciones automáticas y conexiones en tiempo real con sistemas externos para garantizar la precisión y actualidad de los datos. Las funcionalidades del sistema están diseñadas para facilitar la gestión y el seguimiento de las novedades laborales, mejorando la eficiencia operativa y la comunicación dentro de la organización:
 functionalities:

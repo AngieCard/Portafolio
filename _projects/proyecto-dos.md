@@ -12,6 +12,10 @@ technologies: ["Python", "Django", "REST"]
 gallery:
   - "/assets/images/proyecto_2/proyecto2-1.png"
   - "/assets/images/proyecto_2/proyecto2-2.png"
+  - "/assets/images/proyecto_2/proyecto2-3.png"  
+  - "/assets/images/proyecto_2/proyecto2-4.png"  
+  - "/assets/images/proyecto_2/proyecto2-5.png"      
+  - "/assets/images/proyecto_2/proyecto2-6.png"   
 functionalities_intro: |
   El sistema de gestión de eventos es una solución web integral que permite a administradores y usuarios gestionar, inscribir y procesar pagos para diferentes tipos de eventos de manera eficiente. El proyecto se caracteriza por su robusta arquitectura basada en Django, la implementación de roles de usuario y la personalización de formularios para adaptarse a las necesidades específicas de cada evento. Con la capacidad de cargar preinscritos a través de archivos Excel y un mecanismo dinámico para definir campos personalizados, el sistema ofrece una solución flexible que se puede adaptar tanto a eventos regulares como a casos especiales. Además, la integración de la pasarela ePayco asegura que el proceso de pago se realice de forma segura y eficiente:
 functionalities:

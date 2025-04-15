@@ -11,7 +11,9 @@ tags: ["Python","Django","Django REST Framework","Odoo API","Sharepoint API","HT
 
 gallery:
   - "/assets/images/proyecto_4/proyecto4-2.png"
-  - "/assets/images/proyecto_4/proyecto4-1.png"  
+  - "/assets/images/proyecto_4/proyecto4-1.png" 
+  - "/assets/images/proyecto_4/proyecto4-3.png"    
+  - "/assets/images/proyecto_4/proyecto4-4.png"      
 functionalities_intro: |
   El sistema se estructura en varios módulos que, en conjunto, permiten un manejo integral de la información de proveedores. A continuación se detalla cada uno de los aspectos clave del proyecto:
 functionalities:
